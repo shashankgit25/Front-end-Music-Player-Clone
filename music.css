@@ -907,7 +907,9 @@ aside{
 	width: 1500px;
 	position: fixed;
 	bottom: 0;
-	background-color: var(--bg_music_bar);
+	background-color: var(--bg_music_bar);background: linear-gradient(90deg , #070130 , #0d0065 , black);
+	background-size: 400% 400%;
+	animation: anime 2.5s infinite ease-in-out;
 	opacity: 1;
 	color: var(--font_color_1);
 	z-index: 15;
